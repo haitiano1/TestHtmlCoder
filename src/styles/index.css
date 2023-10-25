@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.heading {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    width: 100%;
+    padding: 10px 0;
+    border-bottom: 1px solid var(--text-tertiary);
+}
+
+/* NAVBAR */
+#portNavbar .nav-link {
+    color: var(--light);
+}
+
+#portNavbar .nav-item {
+    margin-right: 20px;
+}
+
+#portNavbar .nav-item .active {
+    padding: 10px 0;
+    border-bottom: 1px solid var(--text-primary);
+    transition: all .5s;
+}
+
+/* CREATIVES */
+
+.creatives-info {
+    position: relative;
+}
+
+.creatives-info img {
+    height: 100vh;
+}
+
+.creatives-info .centered-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.creatives-info .centered-text h4 {
+    color: var(--light);
+    font-size: var(--text-extra-medium);
+    font-weight: var(--font-bold);
+    opacity: 0.85;
+}
+
+.creatives-info .centered-text p {
+    color: var(--text-primary);
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+}
+.scroll-down{
+    color: var(--text-secondary);
+}
+.arrow-down {
+    margin: 0 auto;
+    border: 0.1875em solid var(--border-primary);
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    opacity: 0.8;
+    cursor: pointer;
+}
+/* Feature */
+.feature{
+    padding: var(--px-medium);
+    background-color: var(--text-primary);
+}
+.feature-title h2{
+    font-size: var(--text-large);
+    opacity: 0.2;
+    font-weight: var(--font-bold);
+}
+.feature-title p{
+    font-size: var(--text-extra-base);
+    text-transform: uppercase;
+    font-weight: var(--font-semi-bold);
+}
+.feature__card {
+    margin-top: 50px;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+
+.feature__item i {
+    padding: 40px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.09);
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 20px;
+    font-size: var(--text-extra-base) ;
+}
+
+.feature__item h6 {
+    font-size: var(--text-extra-sm);
+    line-height: 34px;
+    font-weight: 600;
+    padding: 10px 0;
+}
+.feature__item p {
+    max-width: 270px;
+    font-size: var(--text-sm);
+}
+

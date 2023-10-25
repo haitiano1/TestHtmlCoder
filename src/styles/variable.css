@@ -1,0 +1,82 @@
+:root {
+    /* Text color */
+    --light: #fff;
+    --dark: #02021d;
+  
+    --text-primary: #11749e;
+    --text-secondary: #a5a5a5;
+    --text-tertiary: #898989;
+  
+    /* Font size */
+    --text-sm: 14px;
+    --text-extra-sm: 16px;
+    --text-regular: 18px;
+    --text-base: 20px;
+    --text-extra-base: 25px;
+    --text-medium: 50px;
+    --text-extra-medium: 100px;
+    --text-large: 180px;
+  
+    /* Font weight */
+    --font-medium: 500;
+    --font-semi-bold: 600;
+    --font-bold: 700;
+  
+    /* Line height */
+    --leading-primary: 24px;
+    --leading-secondary: 46px;
+    --leading-tertiary: 56px;
+    --leading-quaternary: 74px;
+  
+    /* Border color */
+    --border-primary: #f5f5f5;
+    --border-secondary: #3184ff;
+    --border-tertiary: #f14e2e;
+  
+    /* Background color */
+    --bg-primary: #F2F2F2;
+    --bg-secondary: rgba(2, 2, 29, .4);
+  
+    /* Border radius */
+    --rounded-tiny: 8px;
+    --rounded-primary: 16px;
+    --rounded-secondary: 24px;
+    --rounded-tertiary: 32px;
+  
+    /* Padding */
+    --p-tiny: 5px;
+    --p-small: 9px;
+    --p-extra-small: 10px;
+    --p-base: 11px;
+    --px-base: 13px;
+    --px-normal: 20px;
+    --px-extra-normal: 40px;
+    --px-medium: 80px;
+    --py-normal: 24px;
+    --py-extra-normal: 35px;
+    --py-medium: 135px;
+  
+    /* Width */
+    --w-tiny: 20px;
+    --w-small: 24px;
+    --w-extra-small: 130px;
+    --w-normal: 149px;
+    --w-extra-normal: 320px;
+    --w-base: 322px;
+    --w-medium: 370px;
+    --w-extra-medium: 450px;
+    --w-large: 470px;
+    --w-xs-large: 605px;
+    --w-x-large: 770px;
+    --w-extra-large: 1170px;
+  
+    /* Height */
+    --h-tiny: 20px;
+    --h-small: 24px;
+    --h-normal: 46px;
+    --h-extra-normal: 130px;
+    --h-medium: 398px;
+    --h-large: 502px;
+    --h-extra-large: 588px;
+  }
+  
