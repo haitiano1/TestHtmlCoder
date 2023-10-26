@@ -202,6 +202,9 @@ html {
     max-width: 100%;
     height: auto;
 }
+.blog-card h6{
+    cursor: pointer;
+}
 
 .blog-card .blog-title {
     font-size: var(--text-sm);
