@@ -71,6 +71,9 @@
     .culture-title {
         padding-right: 20px;
     }
+    .footer-item i {
+        font-size: 40px;
+    }
 }
 
 @media (max-width: 576px) {
@@ -112,5 +115,11 @@
         flex: 100%;
         object-fit: cover;
         margin-top: 10px;
+    }
+    .footer-card {
+        flex-direction: column;
+    }
+    .footer-item i {
+        font-size: 30px;
     }
 }

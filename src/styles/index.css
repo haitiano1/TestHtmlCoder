@@ -214,17 +214,18 @@ footer {
 
 .footer-top {
     background-color: var(--text-primary);
+    padding: 60px 0 50px 0;
 }
 
-.footer-card {
-    width: 50%;
+.footer-item {
+    /* width: 50%; */
 }
 
-.footer-card i {
-    font-size: 70px;
+.footer-item i {
+    font-size: 55px;
 }
 
-.footer-card p {
+.footer-item p {
     width: 70%;
     font-size: 10px;
 }
