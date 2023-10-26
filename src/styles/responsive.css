@@ -20,6 +20,10 @@
         background-color: var(--text-tertiary);
     }
 
+    #portNavbar .nav-item .active::after {
+        width: 0
+    }
+
     #portNavbar {
         background-color: var(--text-secondary);
         padding-bottom: 10px;
