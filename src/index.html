@@ -4,12 +4,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>HoangThanhHai-TestHtmlCoder</title>
 </head>
 <!-- FONT AWESOME -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
     integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
+<!-- FONT -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="//fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
 <!-- BOOTSTRAP -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
     integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
@@ -22,6 +27,10 @@
             <a class="navbar-logo" href="#">
                 <img src="./img/Logo.png" alt="">
             </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#portNavbar"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
             <div class="collapse navbar-collapse" id="portNavbar">
                 <ul class="navbar-nav ml-auto align-items-center text-white">
                     <li class="nav-item">
@@ -56,7 +65,7 @@
         <div class="creatives-info">
             <img src="img/Banner.png" class="d-block w-100" alt="...">
             <div class="centered-text text-center">
-                <h4>CREATIVES</h4>
+                <h4 class="mt-5">CREATIVES</h4>
                 <p class="mb-5">Power by PSDfreebies.com</p>
                 <span class="scroll-down">Scroll down</span>
                 <div class="arrow-down text-white d-flex justify-content-center align-items-center mt-3">
@@ -73,26 +82,26 @@
         <div class="feature-option">
             <div class="feature__content text-center">
                 <div class="feature__card justify-content-center">
-                    <div class="row">
-                        <div class="feature__item col-12 col-md-6 col-lg-3">
+                    <div class="row feature__rps">
+                        <div class="feature__item col-12 col-sm-6 col-lg-3">
                             <i class="fa fa-pencil-square"></i>
                             <h6>FEATURE ONE</h6>
                             <p>Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet
                                 rutrum faucibus dolor </p>
                         </div>
-                        <div class="feature__item col-12 col-md-6 col-lg-3">
+                        <div class="feature__item col-12 col-sm-6 col-lg-3">
                             <i class="fa fa-pencil-square"></i>
                             <h6>FEATURE TWO</h6>
                             <p>Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet
                                 rutrum faucibus dolor </p>
                         </div>
-                        <div class="feature__item col-12 col-md-6 col-lg-3">
+                        <div class="feature__item col-12 col-sm-6 col-lg-3">
                             <i class="fa fa-search"></i>
                             <h6>FEATURE THREE</h6>
                             <p>Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet
                                 rutrum faucibus dolor </p>
                         </div>
-                        <div class="feature__item col-12 col-md-6 col-lg-3">
+                        <div class="feature__item col-12 col-sm-6 col-lg-3">
                             <i class="fa fa-comment"></i>
                             <h6>FEATURE FOUR</h6>
                             <p>Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet
@@ -104,37 +113,115 @@
         </div>
     </section>
     <section class="culture">
-        <div class="culture-top row">
-            <div class="col-6">
-                <h6>Jan 4, 2016</h6> <span>in Cultude</span>
+        <div class="d-flex flex-wrap">
+            <div class="culture-title bg-black text-white">
+                <h6 class="d-flex">Jan 4, 2016 <span>in Cultude</span></h6>
                 <h4>AKITA DOG INU</h4>
                 <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Lorem ipsum
                     dolor sit amet, consectetur adipiscing elit. Donec sed odio dui. Vivamus sagittis lacus vel augue
                     laoreet rutrum faucibus dolor auctor.
-                    <br>
+                    <br><br>
                     Donec ullamcorper nulla non metus auctor fringilla. Lorem ipsum dolor sit amet, consectetur
                     adipiscing elit. Sed posuere consectetur </p>
             </div>
-            <div class="col-6">
+            <div class="culture-img">
                 <img src="./img/culture-top.png" class="w-100" alt="">
             </div>
-        </div>
-        <div class="culture-bottom row">
-            <div class="col-6">
+            <div class="culture-img">
                 <img src="./img/culture-bottom.png" class="w-100" alt="">
             </div>
-            <div class="col-6">
-                <h6>Jan 4, 2016</h6> <span>in Cultude</span>
+            <div class="culture-title culture-bot bg-light">
+                <h6 class="d-flex">Jan 4, 2016 <span>in Cultude</span></h6>
                 <h4>AKITA DOG INU</h4>
                 <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Lorem ipsum
                     dolor sit amet, consectetur adipiscing elit. Donec sed odio dui. Vivamus sagittis lacus vel augue
                     laoreet rutrum faucibus dolor auctor.
-                    <br>
+                    <br><br>
                     Donec ullamcorper nulla non metus auctor fringilla. Lorem ipsum dolor sit amet, consectetur
                     adipiscing elit. Sed posuere consectetur </p>
             </div>
         </div>
     </section>
+
+    <section class="blog container">
+        <div class="blog-title text-center ">
+            <div class="d-flex justify-content-center align-items-center">
+                <h2 class="position-relative">B</h2>
+                <p class="position-absolute">Let's blog</p>
+            </div>
+            <h5 class="font-weight-light">We love clean design and advanced digital solutions.</h5>
+        </div>
+        <div class="blog-content row align-items-center text-center">
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 blog-card">
+                <img src="img/blog1.png" alt="">
+                <h6 class="blog-title mt-3">FRESH SUMMER CAMPAIGN</h6>
+                <p class="blog-desc">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus
+                    mus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed odio dui. Vivamus sagittis
+                    lacus vel augue
+
+                    Donec ullamcorper nulla non metus auctor fringilla. Lorem ipsum dolor sit amet, consectetur
+                    adipiscing elit. Sed posuere consectetur est at lobortis.</p>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 blog-card">
+                <img src="img/blog2.png" alt="">
+                <h6 class="blog-title mt-3">FRESH SUMMER CAMPAIGN</h6>
+                <p class="blog-desc">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus
+                    mus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed odio dui. Vivamus sagittis
+                    lacus vel augue
+
+                    Donec ullamcorper nulla non metus auctor fringilla. Lorem ipsum dolor sit amet, consectetur
+                    adipiscing elit. Sed posuere consectetur est at lobortis.</p>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 blog-card">
+                <img src="img/blog3.png" alt="">
+                <h6 class="blog-title mt-3">FRESH SUMMER CAMPAIGN</h6>
+                <p class="blog-desc">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus
+                    mus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed odio dui. Vivamus sagittis
+                    lacus vel augue
+
+                    Donec ullamcorper nulla non metus auctor fringilla. Lorem ipsum dolor sit amet, consectetur
+                    adipiscing elit. Sed posuere consectetur est at lobortis.</p>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 blog-card">
+                <img src="img/blog1.png" alt="">
+                <h6 class="blog-title mt-3">FRESH SUMMER CAMPAIGN</h6>
+                <p class="blog-desc">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus
+                    mus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed odio dui. Vivamus sagittis
+                    lacus vel augue
+
+                    Donec ullamcorper nulla non metus auctor fringilla. Lorem ipsum dolor sit amet, consectetur
+                    adipiscing elit. Sed posuere consectetur est at lobortis.</p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-top pt-5">
+            <div class="d-flex container text-white pb-5 ">
+                <div class="footer-card d-flex align-items-center">
+                    <i class="fa-regular fa-pen-to-square mr-3"></i>
+                    <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Lorem ipsum
+                        dolor sit amet, consectetur adipiscing elit. Donec sed odio dui. Vivamus sagittis lacus vel
+                        augue laoreet rutrum faucibus dolor auctor.
+
+                        Donec ullamcorper nulla non metus auctor fringilla. Lorem ipsum dolor sit amet, consectetur
+                        adipiscing elit. Sed posuere consectetur est at lobortis.</p>
+                </div>
+                <div class="footer-card d-flex align-items-center">
+                    <i class="fa-regular fa-pen-to-square mr-3"></i>
+                    <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Lorem ipsum
+                        dolor sit amet, consectetur adipiscing elit. Donec sed odio dui. Vivamus sagittis lacus vel
+                        augue laoreet rutrum faucibus dolor auctor.
+
+                        Donec ullamcorper nulla non metus auctor fringilla. Lorem ipsum dolor sit amet, consectetur
+                        adipiscing elit. Sed posuere consectetur est at lobortis.</p>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom pt-3 text-white ">
+            <h6 class="container">© 2021. All Right Reserved</h6>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
     <!-- BOOTSTRAP JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous">
