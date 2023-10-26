@@ -230,7 +230,7 @@ footer {
 }
 
 .footer-bottom {
-    background: url(/src/img/footer.png);
+    background: url('/src/img/footer.png');
     height: 10vh;
 }
 
